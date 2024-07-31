@@ -14,7 +14,7 @@ async function main() {
     let data = []
 
     while(bool) {
-        nextPage = await page.goto(`https://defendhawaii.com/collections/kane?page=${pageCounter}`)
+        nextPage = await page.goto(`https://defendhawaii.com/collections/hou-1/WOMENS-TEES?page=${pageCounter}`)
 
         const noProductsFound = await page.locator('//h2[@class="title title--primary"]')
         const footerToScrollTo = await page.locator('//footer')
